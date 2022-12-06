@@ -4,7 +4,9 @@
 
 <img src="https://github.com/AnyaAkhmatova/nets/blob/main/hw1/images/схема.jpg" width="400" height="500">
 
-Конфигурации с сетевых устройств лежат в этой директории (r2_config.txt, r3_config.txt, r4_config.txt, vyos_config.txt).
+Конфигурации с сетевых устройств лежат в директории configs (r2_config.txt, r3_config.txt, r4_config.txt, vyos_config.txt).
+
+Экспорт лабы лежит в этой директории (_Exports_unetlab_export-20221206-233810.zip).
 
 ____
 
