@@ -17,6 +17,11 @@ docker run -it hw2:latest
 python3.8 hw2.py [host]
 ```
 
+ Я не нашла, как выложить docker-контейнер, но нашла, как передать заархивированный docker-образ. Он лежит по ссылке: https://drive.google.com/file/d/103SxJZlDDoEzYwmhoNemjiKzxGvyiaph/view?usp=share_link. Закачивается в docker командой:
+ ```
+ docker load -i hw2-latest.tar
+ ```
+
 Все шаги протестированы на Windows 10 и Ubuntu 20.04. Скрипт находит правильное значение MTU в локальных сетях. 
 
 Также скрипт тестировался в лабе eve-ng на Ubuntu 18.04 c прямым использованием без docker-образа, показал свою работоспособность.
