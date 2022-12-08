@@ -16,6 +16,10 @@ docker run -it hw2:latest
 ```
 python3.8 hw2.py [host]
 ```
+  на Ubuntu можно так:
+```
+./hw2.py [host]
+```
 
 Все шаги протестированы на Windows 10 и Ubuntu 20.04. Скрипт находит правильное значение MTU в локальных сетях. 
 
