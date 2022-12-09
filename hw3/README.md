@@ -38,6 +38,8 @@ show service dhcp-server
 
 <img src="https://github.com/AnyaAkhmatova/nets/blob/main/hw3/images/dhcp_work.jpg" width="600" height="600">
 
+____
+
 ### NAT, выводы с устройств, подтверждающие работоспособность конфигурации:
 
 На маршрутизаторе с сетями клиентов настроена технология NAT, таким образом, чтобы клиенты могли обратиться к верхнему маршрутизатору и получить ответ. На верхнем маршрутизаторе нет дополнительных маршрутов в сети клиентов.
@@ -58,6 +60,7 @@ show nat source
 
 <img src="https://github.com/AnyaAkhmatova/nets/blob/main/hw3/images/exp2.jpg" width="1000" height="500">
 
+#### Vyos
 ```
 show nat source translations detail
 ```
@@ -72,7 +75,7 @@ show nat source translations detail
 <img src="https://github.com/AnyaAkhmatova/nets/blob/main/hw3/images/vyos2_ip_route.jpg" width="500" height="300">
 
 
-
+P.S. Почему-то vyos после запуска остается со значком прогрузки, я не дожидалась, когда значок исчезнет, и все проделанные действия, все равно, давали такие же результаты, все работало. Если потом его выключить, он почему-то не включается. Чтобы включить, надо сначала сделать wipe роутеров, потом уже сделать start. 
 
 
 
